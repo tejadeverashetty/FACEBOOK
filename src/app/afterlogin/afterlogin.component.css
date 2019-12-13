@@ -1,0 +1,113 @@
+.body
+{
+  margin:0px;
+
+    background-image:url("https://image.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg");
+    background-size:cover;
+
+   }
+
+.logo-icon {
+  max-width: 100%;
+}
+
+
+/* #firstrow{
+
+}
+#secondrow{
+
+} */
+.container-fluid {
+  margin:0px!important;
+  padding: 0px!important;
+}
+
+/* .cbody {
+  border-radius: 25px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} */
+
+/* .card-body {
+  border-radius: 25px;
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+} */
+
+
+/* #btn-danger{
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+
+  width: 50px;
+  margin-left: 1280px;
+  /*background-color: rgb(233, 98, 98);*/
+/* }
+#btn-link{
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+
+  width: 50px;
+  margin-left: 1280px;
+  /*background-color: rgb(113, 113, 233);*/
+/* } */ */ */
+
+/* .body {
+  background-color: white;
+  min-height: 730px;
+} */
+.btn-upload{
+
+    height: 500%;
+    border-radius: 5px;
+
+    border: 1px solid yellowgreen;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.3);
+
+}
+.profile-bg{
+
+background: #002137;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(37, 11, 11, 0);
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.hr{
+  color:#fff;
+}
+
+.card-footer {
+  padding: .75rem 1.25rem;
+  background-color: rgba(0,0,0,.03);
+  border-top: 1px solid #ffff;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid rgb(255, 255, 255);
+}
+
+input#exampleInputPassword1 {
+  color: #fff;
+}

@@ -1,0 +1,18 @@
+
+
+.container-fluid {
+  margin:0px!important;
+  padding: 0px!important;
+}
+
+.profile-bg{
+
+  background: #002137;
+  }
+
+.my-card {
+      position:absolute;
+      left:40%;
+      top:-20px;
+      border-radius:50%;
+  }

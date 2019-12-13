@@ -1,0 +1,76 @@
+<div class="container-fluid header">
+    <div class=" container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="logo">FACEBOOK</div>
+        </div>
+        <div class="col-sm-6 hidden-xs">
+          <div class="row">
+            <div class="col-sm-5">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Email Address" #email>
+                  <div class="login-bottom-text checkbox hidden-sm">
+                    <label>
+                      <input type="checkbox" id="">
+                      Keep me sign in
+                    </label>
+                  </div>
+                </div>
+            </div>	
+            <div class="col-sm-5">
+               <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Password" #pswd>
+                  <div class="login-bottom-text hidden-sm"><a routerLink="/forgotpassword">Forgot your password?</a>  </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+               <div class="form-group">
+                  <a><input type="submit" value="login" class="btn btn-success btn-header-login" (click)="login(email,pswd)"></a>
+                </div>
+            </div>
+          </div>	
+        </div>
+      </div>
+      </div>
+      </div>
+    <div class="container-fluid bg">
+    <div class="container
+    
+    ">
+        <div class="row ">
+          
+          <div class="col-sm-4">
+            <div class="">
+            
+            <h3><i class="fa fa-shield"></i> Register now</h3>
+                      <hr>
+                      <div class="form-group">
+                        <label class="control-label" for="">User Name</label>
+                        <input type="text" class="form-control" placeholder="User Name">
+                      </div>
+            <div class="form-group">
+              <label class="control-label" for="">Email Address</label>
+              <input type="email" class="form-control" placeholder="Email Address" #email1>
+            </div>
+                    <div class="form-group">
+                        <label class="control-label" for="">Phone Number</label>
+                        <input type="text" class="form-control" placeholder="Phone Number">
+                      </div>
+            <div class="form-group">
+              <label class="control-label" for="">Password</label>
+              <input type="text" class="form-control" placeholder="Password" #pswd1>
+            </div>
+    
+            <div class="form-group">
+              <label class="control-label" for="">Repeat Password</label>
+              <input type="text" class="form-control" placeholder="Repeat Password">
+            </div>
+                    <div class="form-group">
+                        
+                        <input type="Submit" class="btn btn-success btn-block" (click)="register(email1,pswd1)">
+                      </div>
+                    
+            
+          </div>
+        </div>
+        </div>
